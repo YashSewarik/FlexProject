@@ -1,0 +1,137 @@
+
+
+.header{
+	background-color:#1F2937;
+	color:white;
+	display: flex;
+	padding:10px;
+/*	justify-content: center;*/
+	align-items: center;
+}
+.header > span{
+	font-size:24px;
+	font-weight: bold;
+}
+
+ul{ font-size: 18px;
+	list-style-type: none;
+	padding:0;
+	display: flex;
+	gap:10px;
+	justify-content:flex-end;
+	flex:1 1 75%;
+}
+
+.Title{
+	background-color:#1F2937;
+	color:white;
+	display: flex;
+	padding:10px;
+    justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	gap:10px;
+	justify-content: center;
+	
+
+}
+
+.Title > cont{
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+	justify-content: center;
+	gap:10px;
+	max-width:500px;
+	flex:1 1 auto;
+
+
+}
+.Title > cont > button{
+	background-color:#3882F6;
+	border-radius: 10px;
+	align-self: flex-start;
+	color:white;
+
+}
+.Title > cont > nav{
+	font-size:48px;
+	font-weight: bold;
+}
+.Center > p{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;	
+}
+
+.Center > ul{
+	justify-content: center;
+}
+
+.Saves > li{
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+	align-items: center;
+	font-size: 17px;
+	gap:5px;
+	text-align: center;
+}
+
+li > img{
+	border:1px solid #3882F6;
+	border-radius: 10px;
+}
+
+
+.Quote{
+	background-color:#E5E7EB;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:50px;
+}
+
+.Quote > i{
+	font-size: 36px;
+	color:#1F2937;
+}
+
+.Quote > strong{
+	font-size:25px;
+	align-self: flex-end;
+}
+
+.Link{
+	background-color:#3882F6;
+	margin:50px;
+	border-radius: 10px;
+	padding:20px;
+	display: flex;
+}
+
+.Link > cont{
+	flex:1 1 auto;
+	color:white;
+}
+
+.Link > cont > nav{
+	font-weight: bold;
+	font-size:24px;
+}
+
+.Link > button{
+	background-color:#3882F6;
+	border-radius:10px;
+	border:1px solid white;
+	color:white;
+}
+
+.Footer{
+	background-color:#1F2937;
+	color:white;
+	padding:10px;
+	text-align:center;
+}
